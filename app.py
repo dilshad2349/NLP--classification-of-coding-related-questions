@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 import re
 import nltk
 nltk.download('punkt')
-
+nltk.download('stopwords')
 
 # Function for text preprocessing
 def preprocess_text(text):
