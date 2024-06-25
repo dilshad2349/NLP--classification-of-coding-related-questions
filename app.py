@@ -8,6 +8,7 @@ import re
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Function for text preprocessing
 def preprocess_text(text):
